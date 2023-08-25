@@ -8,7 +8,7 @@ public class WiprosampleApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(WiprosampleApplication.class, args);
-		System.out.println("Hello , have a great day");
+		System.out.println("Hello , have a great day. Happy learning");
 	}
 
 }
