@@ -21,8 +21,8 @@ jobs:
       - name: loginto dockerhub
         uses: docker/login-action@v2
         with:
-          username: ${{ MY_USERNAME }}
-          password: ${{ MY_PASSWORD }}
+          username: ${{ secrets.MY_USERNAME }}
+          password: ${{ secrets.MY_PASSWORD }}
       - name: buildapp and push docker
         uses: docker/build-push-action@v2
         with:
