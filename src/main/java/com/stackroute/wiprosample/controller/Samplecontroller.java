@@ -11,7 +11,7 @@ public class Samplecontroller {
 	@GetMapping("/home")
 	public ResponseEntity getHome()
 	{
-		return new ResponseEntity("Welcome to the API world",HttpStatus.OK);
+		return new ResponseEntity("Welcome to AI programming",HttpStatus.OK);
 	}
 
 }
